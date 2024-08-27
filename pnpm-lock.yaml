@@ -27,8 +27,8 @@ dependencies:
     specifier: 15.0.0-canary.56
     version: 15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704)(react@19.0.0-rc-f38c22b244-20240704)
   next-auth:
-    specifier: 5.0.0-beta.19
-    version: 5.0.0-beta.19(next@15.0.0-canary.56)(react@19.0.0-rc-f38c22b244-20240704)
+    specifier: 5.0.0-beta.20
+    version: 5.0.0-beta.20(next@15.0.0-canary.56)(react@19.0.0-rc-f38c22b244-20240704)
   postcss:
     specifier: 8.4.38
     version: 8.4.38
@@ -72,8 +72,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@auth/core@0.32.0:
-    resolution: {integrity: sha512-3+ssTScBd+1fd0/fscAyQN1tSygXzuhysuVVzB942ggU4mdfiTbv36P0ccVnExKWYJKvu3E2r3/zxXCCAmTOrg==}
+  /@auth/core@0.34.2:
+    resolution: {integrity: sha512-KywHKRgLiF3l7PLyL73fjLSIBe1YNcA6sMeew4yMP6cfCWGXZrkkXd32AjRi1hlJ9nvovUBGZHvbn+LijO6ZeQ==, tarball: https://registry.npmmirror.com/@auth/core/-/core-0.34.2.tgz}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
       '@simplewebauthn/server': ^9.0.2
@@ -488,7 +488,7 @@ packages:
     dev: false
 
   /@panva/hkdf@1.2.0:
-    resolution: {integrity: sha512-97ZQvZJ4gJhi24Io6zI+W7B67I82q1I8i3BSzQ4OyZj1z4OW87/ruF26lrMES58inTKLy2KgVIDcx8PU4AaANQ==}
+    resolution: {integrity: sha512-97ZQvZJ4gJhi24Io6zI+W7B67I82q1I8i3BSzQ4OyZj1z4OW87/ruF26lrMES58inTKLy2KgVIDcx8PU4AaANQ==, tarball: https://registry.npmmirror.com/@panva/hkdf/-/hkdf-1.2.0.tgz}
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
@@ -520,7 +520,7 @@ packages:
     dev: true
 
   /@types/cookie@0.6.0:
-    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
+    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==, tarball: https://registry.npmmirror.com/@types/cookie/-/cookie-0.6.0.tgz}
     dev: false
 
   /@types/node@20.14.8:
@@ -798,7 +798,7 @@ packages:
     dev: false
 
   /cookie@0.6.0:
-    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
+    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==, tarball: https://registry.npmmirror.com/cookie/-/cookie-0.6.0.tgz}
     engines: {node: '>= 0.6'}
     dev: false
 
@@ -1081,7 +1081,7 @@ packages:
     dev: false
 
   /jose@5.4.1:
-    resolution: {integrity: sha512-U6QajmpV/nhL9SyfAewo000fkiRQ+Yd2H0lBxJJ9apjpOgkOcBQJWOrMo917lxLptdS/n/o/xPzMkXhF46K8hQ==}
+    resolution: {integrity: sha512-U6QajmpV/nhL9SyfAewo000fkiRQ+Yd2H0lBxJJ9apjpOgkOcBQJWOrMo917lxLptdS/n/o/xPzMkXhF46K8hQ==, tarball: https://registry.npmmirror.com/jose/-/jose-5.4.1.tgz}
     dev: false
 
   /lilconfig@2.1.0:
@@ -1190,12 +1190,12 @@ packages:
     hasBin: true
     dev: false
 
-  /next-auth@5.0.0-beta.19(next@15.0.0-canary.56)(react@19.0.0-rc-f38c22b244-20240704):
-    resolution: {integrity: sha512-YHu1igcAxZPh8ZB7GIM93dqgY6gcAzq66FOhQFheAdOx1raxNcApt05nNyNCSB6NegSiyJ4XOPsaNow4pfDmsg==}
+  /next-auth@5.0.0-beta.20(next@15.0.0-canary.56)(react@19.0.0-rc-f38c22b244-20240704):
+    resolution: {integrity: sha512-+48SjV9k9AtUU3JbEIa4PXNjKIewfFjVGL7Xs2RKkuQ5QqegDNIQiIG8sLk6/qo7RTScQYIGKgeQ5IuQRtrTQg==, tarball: https://registry.npmmirror.com/next-auth/-/next-auth-5.0.0-beta.20.tgz}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
       '@simplewebauthn/server': ^9.0.2
-      next: ^14 || ^15.0.0-0
+      next: ^14.0.0-0 || ^15.0.0-0
       nodemailer: ^6.6.5
       react: ^18.2.0 || ^19.0.0-0
     peerDependenciesMeta:
@@ -1206,7 +1206,7 @@ packages:
       nodemailer:
         optional: true
     dependencies:
-      '@auth/core': 0.32.0
+      '@auth/core': 0.34.2
       next: 15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704)(react@19.0.0-rc-f38c22b244-20240704)
       react: 19.0.0-rc-f38c22b244-20240704
     dev: false
@@ -1311,7 +1311,7 @@ packages:
     dev: false
 
   /oauth4webapi@2.11.1:
-    resolution: {integrity: sha512-aNzOnL98bL6izG97zgnZs1PFEyO4WDVRhz2Pd066NPak44w5ESLRCYmJIyey8avSBPOMtBjhF3ZDDm7bIb7UOg==}
+    resolution: {integrity: sha512-aNzOnL98bL6izG97zgnZs1PFEyO4WDVRhz2Pd066NPak44w5ESLRCYmJIyey8avSBPOMtBjhF3ZDDm7bIb7UOg==, tarball: https://registry.npmmirror.com/oauth4webapi/-/oauth4webapi-2.11.1.tgz}
     dev: false
 
   /object-assign@4.1.1:
@@ -1493,7 +1493,7 @@ packages:
     dev: false
 
   /preact-render-to-string@5.2.3(preact@10.11.3):
-    resolution: {integrity: sha512-aPDxUn5o3GhWdtJtW0svRC2SS/l8D9MAgo2+AWml+BhDImb27ALf04Q2d+AHqUUOc6RdSXFIBVa2gxzgMKgtZA==}
+    resolution: {integrity: sha512-aPDxUn5o3GhWdtJtW0svRC2SS/l8D9MAgo2+AWml+BhDImb27ALf04Q2d+AHqUUOc6RdSXFIBVa2gxzgMKgtZA==, tarball: https://registry.npmmirror.com/preact-render-to-string/-/preact-render-to-string-5.2.3.tgz}
     peerDependencies:
       preact: '>=10'
     dependencies:
@@ -1502,11 +1502,11 @@ packages:
     dev: false
 
   /preact@10.11.3:
-    resolution: {integrity: sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg==}
+    resolution: {integrity: sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg==, tarball: https://registry.npmmirror.com/preact/-/preact-10.11.3.tgz}
     dev: false
 
   /pretty-format@3.8.0:
-    resolution: {integrity: sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==}
+    resolution: {integrity: sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==, tarball: https://registry.npmmirror.com/pretty-format/-/pretty-format-3.8.0.tgz}
     dev: false
 
   /queue-microtask@1.2.3:
